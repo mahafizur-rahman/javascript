@@ -1,7 +1,9 @@
 console.log("What is your name: ");
 
 let myself = (name)=>{
-    return `I am ${myself}`
+    return `I am ${name}`
 }
 
-myself("mahafizur rahman biplob")
+
+let nam = "mahafizur rahman biplob";
+console.log(myself(nam))
